@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Guess the number between 0 to 101</h1>
+    <form action="">
+        <label for="guessfield">Input your Number</label>
+        <input type="text" id="guessfield">
+        <button id="btn">Submit</button>
+    </form>
+    <div id="result">
+        <h3>Previous Guesses: <span id="prevGuess"></span></h3>
+        <h3>Guesses Remaining: <span id="guessRemain">10</span></h3>
+    </div>
+    <h3 id="alert"></h3>
+
+    <script src="guess.js"></script>
+</body>
+</html>
