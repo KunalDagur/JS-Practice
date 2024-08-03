@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API GENERAL</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: antiquewhite;
+    }
+
+    .card {
+        max-width: 50rem;
+        width: 40rem;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    button{
+        padding: 1rem 2rem;
+        background-color: aquamarine;
+        box-shadow: .1rem .1rem .1rem aquamarine;
+        border: 1px solid aquamarine;
+    }
+
+    #hideInfo{
+        margin-left: 2rem;
+    }
+    div{
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <div><h2>Name: <span id="name"></span></h2></div>
+        <div><h2>Image: </h2><span id="photo"></span> </div>
+        <div><h2>Followers : <span id="followers"></span></h2></div>
+        <div id="button">
+            <button id="getInfo">Get Info</button>
+            <button id="hideInfo">Hide Info</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
